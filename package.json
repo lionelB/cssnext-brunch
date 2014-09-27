@@ -28,8 +28,6 @@
   "bugs": {
     "url": "https://github.com/cssnext/cssnext-brunch/issues"
   },
-  "_id": "cssnext-brunch@0.0.1",
-  "_from": "cssnext-brunch@>= 1.0 < 1.8",
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.21.4"
