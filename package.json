@@ -1,0 +1,37 @@
+{
+  "name": "cssnext-brunch",
+  "version": "0.0.1",
+  "description": "Add cssnext support to brunch",
+  "author": {
+    "name": "Lionel Breduillieard",
+    "url": "http://lumographe.fr"
+  },
+  "keywords": [
+    "postcss",
+    "cssnext",
+    "brunch",
+    "postprocessor"
+  ],
+  "homepage": "https://github.com/cssnext/cssnext-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cssnext/cssnext-brunch.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "dependencies": {
+    "cssnext": "^0.3.1"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/cssnext/cssnext-brunch/issues"
+  },
+  "_id": "cssnext-brunch@0.0.1",
+  "_from": "cssnext-brunch@>= 1.0 < 1.8",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
