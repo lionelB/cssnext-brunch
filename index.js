@@ -1,5 +1,5 @@
 var CssNextCompiler;
-var cssnext = require('cssnext');
+var cssnext = require("cssnext");
 
 module.exports = CssNextCompiler = (function(){
 
@@ -7,7 +7,7 @@ module.exports = CssNextCompiler = (function(){
     this.config = config;
     var options = config.plugins && config.plugins.cssnext;
 
-    if (!options) {
+    if(!options) {
       this.cssNextOptions = {};
       return;
     }
@@ -23,18 +23,18 @@ module.exports = CssNextCompiler = (function(){
 
 
   CssNextCompiler.prototype = {
-    constructor: CssNextCompiler,
-    name:'CssNextCompiler',
-    brunchPlugin: true,
-    type: 'stylesheet',
-    extension: 'css',
-    compile: function(params, callback){
+    constructor   : CssNextCompiler,
+    name          :"CssNextCompiler",
+    brunchPlugin  : true,
+    type          : "stylesheet",
+    extension     : "css",
+    compile       : function(params, callback){
       var result;
       var error;
 
       var env = this.config.env;
       // Disable inlined sourcemap in production
-      if (env && env.indexOf('production') != -1) {
+      if(env && env.indexOf("production") !== -1) {
         this.cssNextOptions.sourcemap = false;
       }
       try{
