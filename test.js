@@ -9,7 +9,7 @@ describe("Plugin", function(){
   });
 
   it("should be an object", function(){
-    expect(plugin).to.be.ok();
+    expect(plugin).to.be.ok;
   });
 
   it("should has #compile method", function(){
@@ -20,7 +20,7 @@ describe("Plugin", function(){
     var content = ":root{--mainSize:2em} body{ font-size:var(--mainSize)}";
     var expected = "body{ font-size: 2em}";
     plugin.compile({data : content}, function(error, data){
-      expect(error).not.to.be.ok();
+      expect(error).not.to.be.ok;
       expect(data.trim()).to.equal(expected);
       done();
     });
