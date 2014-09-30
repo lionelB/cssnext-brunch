@@ -1,18 +1,18 @@
-cssnext-brunch
-==============
+# [cssnext](http://https://github.com/cssnext/cssnext)-brunch
 
-Add [cssnext](http://https://github.com/cssnext/cssnext) support to brunch
+> Use tomorrow's CSS syntax, today. Via Brunch.
 
-#Install
+**Issues with the output should be reported on [cssnext issue tracker](https://github.com/cssnext/cssnext/issues).**
 
-```bash
- npm install --save cssnext-brunch
-```
+_Follow [@cssnext](https://twitter.com/cssnext) to get latest news & [join #cssnext on irc.freenode.net](irc://irc.freenode.net/cssnext) if you have any questions._
 
-#Plugin options
+## Install
 
-Add a ``cssnext`` section in the plugins sectoin of your brunch cinfig file.
-[More info on brunch config file](https://github.com/brunch/brunch/blob/stable/docs/config.md)
+    $ npm install cssnext-brunch
+
+## Usage
+
+Add a `cssnext` section in the plugins section of your [brunch config file](https://github.com/brunch/brunch/blob/stable/docs/config.md)
 
 ```coffeescript
 plugins:
@@ -22,24 +22,40 @@ plugins:
       sourcemap: true
 ```
 
-Available options are the same as the cssnext node.js options [See more](https://github.com/cssnext/cssnext#nodejs-options)
+Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/cssnext/cssnext#nodejs-options) directly.
 
-# Notes
+## Notes
 
 cssnext-brunch is a compile-type plugin, so it's play well optimizer like [clean-css-brunch](https://github.com/brunch/clean-css-brunch)
 
-## SourceMaps
+### SourceMaps
 
 For now, sourcemap is inlined in the generated css.
 If you want to enable cssnext sourcemap, you should disabled brunch default sourcemap.
 
-Also, it seems that minification (via `` compress`` option or via another brunch plugin) broke sourcemap support. 
+Also, it seems that minification (via `` compress`` option or via another brunch plugin) broke sourcemap support.
 
-##Import
+### Import
 
 By default, brunch concatenates css files. In order to  take advantage of postcss-import, you'll need to add **_** to filename (* @import "_filename.css"*.
 You also need to spécify import folder in the brunch config.
-``import: "app/css"`` for example. 
+``import: "app/css"`` for example.
 
-## Production
+###  Production
+
 When build for production, inlined sourcemap is disabled.
+
+---
+
+## Contributing
+
+Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
+
+    $ git clone https://github.com/cssnext/cssnext-brunch.git
+    $ git checkout -b patch-1
+    $ npm install
+    $ npm test
+
+## [Changelog](CHANGELOG.md)
+
+## [License](LICENSE)
