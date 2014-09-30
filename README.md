@@ -1,5 +1,8 @@
 # [cssnext](http://https://github.com/cssnext/cssnext)-brunch
 
+[![Build Status](http://img.shields.io/travis/cssnext/cssnext-brunch.svg)](https://travis-ci.org/cssnext/cssnext-brunch)
+[![NPM version](http://img.shields.io/npm/v/cssnext-brunch.svg)](https://www.npmjs.org/package/cssnext-brunch)
+
 > Use tomorrow's CSS syntax, today. Via Brunch.
 
 **Issues with the output should be reported on [cssnext issue tracker](https://github.com/cssnext/cssnext/issues).**
