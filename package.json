@@ -21,6 +21,12 @@
   "bugs": {
     "url": "https://github.com/cssnext/cssnext-brunch/issues"
   },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
   "dependencies": {
     "cssnext": "^0.3.1"
   },
