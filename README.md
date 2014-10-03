@@ -36,13 +36,13 @@ cssnext-brunch is a compile-type plugin, so it's play well optimizer like [clean
 For now, sourcemap is inlined in the generated css.
 If you want to enable cssnext sourcemap, you should disabled brunch default sourcemap.
 
-Also, it seems that minification (via `` compress`` option or via another brunch plugin) broke sourcemap support.
+Also, it seems that minification (via `compress` option or via another brunch plugin) broke sourcemap support.
 
 ### Import
 
-By default, brunch concatenates css files. In order to  take advantage of postcss-import, you'll need to add **_** to filename (* @import "_filename.css"*.
-You also need to spécify import folder in the brunch config.
-``import: "app/css"`` for example.
+By default, brunch concatenates css files. In order to  take advantage of postcss-import, you'll need to add `_` to filename (`@import "_filename.css"`).
+You also need to specify import folder in the brunch config.
+`import: "app/css"` for example.
 
 ###  Production
 
