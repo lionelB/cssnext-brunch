@@ -1,6 +1,10 @@
+# 0.4.0 - 2014-11-13
+
+- Upgrade to cssnext v0.5.0 (postcss v3)
+
 # 0.3.0 - 2014-11-09
 
-- cssnext v0.4.3
+- Upgrade to cssnext v0.4.3
 
 # 0.2.0 - 2014-09-27
 

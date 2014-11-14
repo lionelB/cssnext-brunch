@@ -1,12 +1,17 @@
 {
   "name": "cssnext-brunch",
   "version": "0.3.0",
-  "description": "Use tomorrow's CSS syntax, today. Via brunch",
+  "description": "Use tomorrow's CSS syntax, today, using cssnext via brunch",
   "keywords": [
-    "postcss",
+    "css",
     "cssnext",
+    "preprocessor",
+    "postprocessor",
+    "rework",
+    "postcss",
+    "autoprefixer",
     "brunch",
-    "postprocessor"
+    "brunchplugin"
   ],
   "author": {
     "name": "Lionel Breduillieard",
@@ -27,7 +32,7 @@
     "index.js"
   ],
   "dependencies": {
-    "cssnext": "^0.4.2"
+    "cssnext": "^0.5.0"
   },
   "devDependencies": {
     "chai": "^1.9.1",
