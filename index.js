@@ -45,7 +45,7 @@ CssNextCompiler.prototype.compile = function(params, callback) {
   catch (err) {
     error = err
   }
-  finally{
+  finally {
     return callback(error, result)
   }
 }
