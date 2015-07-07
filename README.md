@@ -24,11 +24,11 @@ plugins:
       features:
         prefixes:
           browsers:['> 5%', 'last 3 version', 'IE 8']
-        import:
-          path: 'app/css'
+      import:
+        path: 'app/css'
 ```
 
-Options are directly passed to cssnext, so checkout [cssnext options](https://github.com/cssnext/cssnext#nodejs-options) directly.
+Options are directly passed to cssnext, so checkout [cssnext options](http://cssnext.io/usage/) directly.
 
 ## Notes
 
@@ -52,15 +52,6 @@ You also need to specify import folder in the brunch config.
 When build for production, inlined sourcemap is disabled.
 
 ---
-
-## Contributing
-
-Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
-
-    $ git clone https://github.com/cssnext/cssnext-brunch.git
-    $ git checkout -b patch-1
-    $ npm install
-    $ npm test
 
 ## [Changelog](CHANGELOG.md)
 
