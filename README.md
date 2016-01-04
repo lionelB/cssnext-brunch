@@ -1,3 +1,7 @@
+# DEPRECATED. Use postcss-brunch instead.
+
+---
+
 # [cssnext](https://github.com/cssnext/cssnext)-brunch
 
 [![Build Status](http://img.shields.io/travis/cssnext/cssnext-brunch.svg)](https://travis-ci.org/cssnext/cssnext-brunch)
